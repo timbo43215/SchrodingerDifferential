@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB7747F29A7EDB200684BA6 /* SchrodingerDifferentialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7747E29A7EDB200684BA6 /* SchrodingerDifferentialApp.swift */; };
+		ABB7748129A7EDB200684BA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7748029A7EDB200684BA6 /* ContentView.swift */; };
+		ABB7748329A7EDB300684BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB7748229A7EDB300684BA6 /* Assets.xcassets */; };
+		ABB7748629A7EDB300684BA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB7748529A7EDB300684BA6 /* Preview Assets.xcassets */; };
+		ABB7749129A7EDB300684BA6 /* SchrodingerDifferentialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7749029A7EDB300684BA6 /* SchrodingerDifferentialTests.swift */; };
+		ABB7749B29A7EDB300684BA6 /* SchrodingerDifferentialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7749A29A7EDB300684BA6 /* SchrodingerDifferentialUITests.swift */; };
+		ABB7749D29A7EDB300684BA6 /* SchrodingerDifferentialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7749C29A7EDB300684BA6 /* SchrodingerDifferentialUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABB7748D29A7EDB300684BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB7747329A7EDB200684BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB7747A29A7EDB200684BA6;
+			remoteInfo = SchrodingerDifferential;
+		};
+		ABB7749729A7EDB300684BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB7747329A7EDB200684BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB7747A29A7EDB200684BA6;
+			remoteInfo = SchrodingerDifferential;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABB7747B29A7EDB200684BA6 /* SchrodingerDifferential.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchrodingerDifferential.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB7747E29A7EDB200684BA6 /* SchrodingerDifferentialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodingerDifferentialApp.swift; sourceTree = "<group>"; };
+		ABB7748029A7EDB200684BA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABB7748229A7EDB300684BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB7748529A7EDB300684BA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABB7748729A7EDB300684BA6 /* SchrodingerDifferential.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SchrodingerDifferential.entitlements; sourceTree = "<group>"; };
+		ABB7748C29A7EDB300684BA6 /* SchrodingerDifferentialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchrodingerDifferentialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB7749029A7EDB300684BA6 /* SchrodingerDifferentialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodingerDifferentialTests.swift; sourceTree = "<group>"; };
+		ABB7749629A7EDB300684BA6 /* SchrodingerDifferentialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchrodingerDifferentialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB7749A29A7EDB300684BA6 /* SchrodingerDifferentialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodingerDifferentialUITests.swift; sourceTree = "<group>"; };
+		ABB7749C29A7EDB300684BA6 /* SchrodingerDifferentialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodingerDifferentialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB7747829A7EDB200684BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB7748929A7EDB300684BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB7749329A7EDB300684BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB7747229A7EDB200684BA6 = {
+			isa = PBXGroup;
+			children = (
+				ABB7747D29A7EDB200684BA6 /* SchrodingerDifferential */,
+				ABB7748F29A7EDB300684BA6 /* SchrodingerDifferentialTests */,
+				ABB7749929A7EDB300684BA6 /* SchrodingerDifferentialUITests */,
+				ABB7747C29A7EDB200684BA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB7747C29A7EDB200684BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7747B29A7EDB200684BA6 /* SchrodingerDifferential.app */,
+				ABB7748C29A7EDB300684BA6 /* SchrodingerDifferentialTests.xctest */,
+				ABB7749629A7EDB300684BA6 /* SchrodingerDifferentialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB7747D29A7EDB200684BA6 /* SchrodingerDifferential */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7747E29A7EDB200684BA6 /* SchrodingerDifferentialApp.swift */,
+				ABB7748029A7EDB200684BA6 /* ContentView.swift */,
+				ABB7748229A7EDB300684BA6 /* Assets.xcassets */,
+				ABB7748729A7EDB300684BA6 /* SchrodingerDifferential.entitlements */,
+				ABB7748429A7EDB300684BA6 /* Preview Content */,
+			);
+			path = SchrodingerDifferential;
+			sourceTree = "<group>";
+		};
+		ABB7748429A7EDB300684BA6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7748529A7EDB300684BA6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABB7748F29A7EDB300684BA6 /* SchrodingerDifferentialTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7749029A7EDB300684BA6 /* SchrodingerDifferentialTests.swift */,
+			);
+			path = SchrodingerDifferentialTests;
+			sourceTree = "<group>";
+		};
+		ABB7749929A7EDB300684BA6 /* SchrodingerDifferentialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7749A29A7EDB300684BA6 /* SchrodingerDifferentialUITests.swift */,
+				ABB7749C29A7EDB300684BA6 /* SchrodingerDifferentialUITestsLaunchTests.swift */,
+			);
+			path = SchrodingerDifferentialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB7747A29A7EDB200684BA6 /* SchrodingerDifferential */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB774A029A7EDB300684BA6 /* Build configuration list for PBXNativeTarget "SchrodingerDifferential" */;
+			buildPhases = (
+				ABB7747729A7EDB200684BA6 /* Sources */,
+				ABB7747829A7EDB200684BA6 /* Frameworks */,
+				ABB7747929A7EDB200684BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchrodingerDifferential;
+			productName = SchrodingerDifferential;
+			productReference = ABB7747B29A7EDB200684BA6 /* SchrodingerDifferential.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABB7748B29A7EDB300684BA6 /* SchrodingerDifferentialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB774A329A7EDB300684BA6 /* Build configuration list for PBXNativeTarget "SchrodingerDifferentialTests" */;
+			buildPhases = (
+				ABB7748829A7EDB300684BA6 /* Sources */,
+				ABB7748929A7EDB300684BA6 /* Frameworks */,
+				ABB7748A29A7EDB300684BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB7748E29A7EDB300684BA6 /* PBXTargetDependency */,
+			);
+			name = SchrodingerDifferentialTests;
+			productName = SchrodingerDifferentialTests;
+			productReference = ABB7748C29A7EDB300684BA6 /* SchrodingerDifferentialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABB7749529A7EDB300684BA6 /* SchrodingerDifferentialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB774A629A7EDB300684BA6 /* Build configuration list for PBXNativeTarget "SchrodingerDifferentialUITests" */;
+			buildPhases = (
+				ABB7749229A7EDB300684BA6 /* Sources */,
+				ABB7749329A7EDB300684BA6 /* Frameworks */,
+				ABB7749429A7EDB300684BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB7749829A7EDB300684BA6 /* PBXTargetDependency */,
+			);
+			name = SchrodingerDifferentialUITests;
+			productName = SchrodingerDifferentialUITests;
+			productReference = ABB7749629A7EDB300684BA6 /* SchrodingerDifferentialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB7747329A7EDB200684BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ABB7747A29A7EDB200684BA6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ABB7748B29A7EDB300684BA6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABB7747A29A7EDB200684BA6;
+					};
+					ABB7749529A7EDB300684BA6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABB7747A29A7EDB200684BA6;
+					};
+				};
+			};
+			buildConfigurationList = ABB7747629A7EDB200684BA6 /* Build configuration list for PBXProject "SchrodingerDifferential" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB7747229A7EDB200684BA6;
+			productRefGroup = ABB7747C29A7EDB200684BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB7747A29A7EDB200684BA6 /* SchrodingerDifferential */,
+				ABB7748B29A7EDB300684BA6 /* SchrodingerDifferentialTests */,
+				ABB7749529A7EDB300684BA6 /* SchrodingerDifferentialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB7747929A7EDB200684BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB7748629A7EDB300684BA6 /* Preview Assets.xcassets in Resources */,
+				ABB7748329A7EDB300684BA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB7748A29A7EDB300684BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB7749429A7EDB300684BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB7747729A7EDB200684BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB7748129A7EDB200684BA6 /* ContentView.swift in Sources */,
+				ABB7747F29A7EDB200684BA6 /* SchrodingerDifferentialApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB7748829A7EDB300684BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB7749129A7EDB300684BA6 /* SchrodingerDifferentialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB7749229A7EDB300684BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB7749D29A7EDB300684BA6 /* SchrodingerDifferentialUITestsLaunchTests.swift in Sources */,
+				ABB7749B29A7EDB300684BA6 /* SchrodingerDifferentialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB7748E29A7EDB300684BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB7747A29A7EDB200684BA6 /* SchrodingerDifferential */;
+			targetProxy = ABB7748D29A7EDB300684BA6 /* PBXContainerItemProxy */;
+		};
+		ABB7749829A7EDB300684BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB7747A29A7EDB200684BA6 /* SchrodingerDifferential */;
+			targetProxy = ABB7749729A7EDB300684BA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABB7749E29A7EDB300684BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABB7749F29A7EDB300684BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ABB774A129A7EDB300684BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SchrodingerDifferential/SchrodingerDifferential.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchrodingerDifferential/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SchrodingerDifferential;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABB774A229A7EDB300684BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SchrodingerDifferential/SchrodingerDifferential.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchrodingerDifferential/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SchrodingerDifferential;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ABB774A429A7EDB300684BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SchrodingerDifferentialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchrodingerDifferential.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SchrodingerDifferential";
+			};
+			name = Debug;
+		};
+		ABB774A529A7EDB300684BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SchrodingerDifferentialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchrodingerDifferential.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SchrodingerDifferential";
+			};
+			name = Release;
+		};
+		ABB774A729A7EDB300684BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SchrodingerDifferentialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SchrodingerDifferential;
+			};
+			name = Debug;
+		};
+		ABB774A829A7EDB300684BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SchrodingerDifferentialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SchrodingerDifferential;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB7747629A7EDB200684BA6 /* Build configuration list for PBXProject "SchrodingerDifferential" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB7749E29A7EDB300684BA6 /* Debug */,
+				ABB7749F29A7EDB300684BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB774A029A7EDB300684BA6 /* Build configuration list for PBXNativeTarget "SchrodingerDifferential" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB774A129A7EDB300684BA6 /* Debug */,
+				ABB774A229A7EDB300684BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB774A329A7EDB300684BA6 /* Build configuration list for PBXNativeTarget "SchrodingerDifferentialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB774A429A7EDB300684BA6 /* Debug */,
+				ABB774A529A7EDB300684BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB774A629A7EDB300684BA6 /* Build configuration list for PBXNativeTarget "SchrodingerDifferentialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB774A729A7EDB300684BA6 /* Debug */,
+				ABB774A829A7EDB300684BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB7747329A7EDB200684BA6 /* Project object */;
+}
