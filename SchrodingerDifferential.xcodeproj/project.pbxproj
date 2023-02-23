@@ -14,6 +14,8 @@
 		ABB7749129A7EDB300684BA6 /* SchrodingerDifferentialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7749029A7EDB300684BA6 /* SchrodingerDifferentialTests.swift */; };
 		ABB7749B29A7EDB300684BA6 /* SchrodingerDifferentialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7749A29A7EDB300684BA6 /* SchrodingerDifferentialUITests.swift */; };
 		ABB7749D29A7EDB300684BA6 /* SchrodingerDifferentialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7749C29A7EDB300684BA6 /* SchrodingerDifferentialUITestsLaunchTests.swift */; };
+		ABB774AF29A7F5CB00684BA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7748029A7EDB200684BA6 /* ContentView.swift */; };
+		ABB774B029A7F5CB00684BA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7748029A7EDB200684BA6 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -269,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB7749129A7EDB300684BA6 /* SchrodingerDifferentialTests.swift in Sources */,
+				ABB774AF29A7F5CB00684BA6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB7749D29A7EDB300684BA6 /* SchrodingerDifferentialUITestsLaunchTests.swift in Sources */,
+				ABB774B029A7F5CB00684BA6 /* ContentView.swift in Sources */,
 				ABB7749B29A7EDB300684BA6 /* SchrodingerDifferentialUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
